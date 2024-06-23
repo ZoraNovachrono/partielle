@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{4F117CA8-970F-4418-9BCB-04C68F53914F}|Partielle\\Partielle.vcxproj|solutionrelative:Partielle\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F117CA8-970F-4418-9BCB-04C68F53914F}|Partielle\\Partielle.vcxproj|C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\controlleur.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F117CA8-970F-4418-9BCB-04C68F53914F}|Partielle\\Partielle.vcxproj|solutionrelative:Partielle\\controlleur.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4F117CA8-970F-4418-9BCB-04C68F53914F}|Partielle\\Partielle.vcxproj|C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\Item.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F117CA8-970F-4418-9BCB-04C68F53914F}|Partielle\\Partielle.vcxproj|solutionrelative:Partielle\\Item.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F117CA8-970F-4418-9BCB-04C68F53914F}|Partielle\\Partielle.vcxproj|C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F117CA8-970F-4418-9BCB-04C68F53914F}|Partielle\\Partielle.vcxproj|solutionrelative:Partielle\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +32,7 @@
               "RelativeDocumentMoniker": "Partielle\\main.c",
               "ToolTip": "C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\main.c",
               "RelativeToolTip": "Partielle\\main.c",
-              "ViewState": "AQIAAA0AAAAAAAAAAAASwBkAAAAPAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACoAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-29T09:09:51.758Z",
               "IsPinned": true,
@@ -36,15 +40,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "item.h",
+              "DocumentMoniker": "C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\item.h",
+              "RelativeDocumentMoniker": "Partielle\\item.h",
+              "ToolTip": "C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\item.h",
+              "RelativeToolTip": "Partielle\\item.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-23T18:43:27.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "controlleur.c",
-              "DocumentMoniker": "C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\controlleur.c",
-              "RelativeDocumentMoniker": "Partielle\\controlleur.c",
-              "ToolTip": "C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\controlleur.c",
-              "RelativeToolTip": "Partielle\\controlleur.c",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Title": "item.c",
+              "DocumentMoniker": "C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\item.c",
+              "RelativeDocumentMoniker": "Partielle\\item.c",
+              "ToolTip": "C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\item.c",
+              "RelativeToolTip": "Partielle\\item.c",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-23T15:20:35.901Z",
+              "WhenOpened": "2024-06-23T18:43:09.029Z",
               "EditorCaption": ""
             }
           ]

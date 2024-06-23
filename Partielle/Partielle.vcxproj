@@ -135,12 +135,14 @@
     <ClCompile Include="affichage.c" />
     <ClCompile Include="controlleur.c" />
     <ClCompile Include="init.c" />
+    <ClCompile Include="item.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="affichage.h" />
     <ClInclude Include="controlleur.h" />
     <ClInclude Include="init.h" />
+    <ClInclude Include="item.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

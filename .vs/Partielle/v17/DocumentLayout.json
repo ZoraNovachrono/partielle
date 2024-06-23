@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\qrecco\\Documents\\GitHub\\partielle\\",
+  "WorkspaceRootPath": "C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F117CA8-970F-4418-9BCB-04C68F53914F}|Partielle\\Partielle.vcxproj|C:\\Users\\qrecco\\Documents\\GitHub\\partielle\\Partielle\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4F117CA8-970F-4418-9BCB-04C68F53914F}|Partielle\\Partielle.vcxproj|C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4F117CA8-970F-4418-9BCB-04C68F53914F}|Partielle\\Partielle.vcxproj|solutionrelative:Partielle\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\qrecco\\Documents\\GitHub\\partielle\\Partielle\\main.c",
+              "DocumentMoniker": "C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\main.c",
               "RelativeDocumentMoniker": "Partielle\\main.c",
-              "ToolTip": "C:\\Users\\qrecco\\Documents\\GitHub\\partielle\\Partielle\\main.c",
+              "ToolTip": "C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\main.c",
               "RelativeToolTip": "Partielle\\main.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-29T09:09:51.758Z",
               "EditorCaption": ""

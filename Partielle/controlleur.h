@@ -2,11 +2,10 @@
 #ifndef CONTROLLEUR_H
 #define CONTROLLEUR_H
 
-void mouvement(SDL_Event evenement, int* player_up, int* player_down,
-    int* player_right, int* player_left, int valeur);
+void controller(int* continuer, int* player1_up, int* player1_down,
+    int* player1_left, int* player1_right);
 
-void controlleur(int* continuer, int* player_up, int* player_down,
-    int* player_right, int* player_left, int taille, int* dy,
-    int* dx);
+void deplacement(int* y, int* x, int player1_up
+    , int player1_left, int player1_down, int player1_right);
 
 #endif

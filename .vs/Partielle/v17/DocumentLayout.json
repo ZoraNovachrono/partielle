@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{4F117CA8-970F-4418-9BCB-04C68F53914F}|Partielle\\Partielle.vcxproj|C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4F117CA8-970F-4418-9BCB-04C68F53914F}|Partielle\\Partielle.vcxproj|solutionrelative:Partielle\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F117CA8-970F-4418-9BCB-04C68F53914F}|Partielle\\Partielle.vcxproj|C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\controlleur.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F117CA8-970F-4418-9BCB-04C68F53914F}|Partielle\\Partielle.vcxproj|solutionrelative:Partielle\\controlleur.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +28,23 @@
               "RelativeDocumentMoniker": "Partielle\\main.c",
               "ToolTip": "C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\main.c",
               "RelativeToolTip": "Partielle\\main.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAASwBkAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-29T09:09:51.758Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "controlleur.c",
+              "DocumentMoniker": "C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\controlleur.c",
+              "RelativeDocumentMoniker": "Partielle\\controlleur.c",
+              "ToolTip": "C:\\Users\\quant\\OneDrive\\Documents\\GitHub\\partielle\\Partielle\\controlleur.c",
+              "RelativeToolTip": "Partielle\\controlleur.c",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-23T15:20:35.901Z",
               "EditorCaption": ""
             }
           ]

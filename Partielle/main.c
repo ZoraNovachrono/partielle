@@ -24,6 +24,7 @@ int main(int argc, char* argv[]) {
     int player_left=0;
     int dx = 5;
     int dy = 0;
+    SDL_Event evenement;
 
     while (continuer)
     {
@@ -31,8 +32,11 @@ int main(int argc, char* argv[]) {
 
         draw(renderer, x, y, taille, taille,0,255,0);
 
-        controlleur(&continuer, &player_up, &player_down, &player_right,
-            &player_left, taille, &dy, &dx);
+        controller(&continuer, &player_up, &player_down, &player_left, &player_right);
+
+        //printf("player_up : %d, player_down : %d,  player_right : %d, player_left : %d", player_up, player_down, player_right, player_left);
+
+        deplacement(&y, &x, player_up, player_left, player_down, player_right);
 
         x += dx;
         y += dy;

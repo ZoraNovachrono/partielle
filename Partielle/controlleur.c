@@ -3,84 +3,83 @@
 
 #include "controlleur.h"
 
+#define TAILLE  50
 
-void mouvement(SDL_Event evenement, int* player_up, int* player_down,
-    int* player_right, int* player_left, int valeur) {
+//interpreter les inputs du joueur
+void action(SDL_Event evenement, int* player1_up, int* player1_down,
+    int* player1_right, int* player1_left, int valeur) {
     switch (evenement.key.keysym.sym) {
-    case SDLK_LEFT:
-        player_left = valeur;
+    case SDLK_z:
+        *player1_up = valeur;
         break;
-    case SDLK_RIGHT:
-        player_right = valeur;
+    case SDLK_s:
+        *player1_down = valeur;
         break;
-    case SDLK_UP:
-        player_up = valeur;
+    case SDLK_d:
+        *player1_right = valeur;
         break;
-    case SDLK_DOWN:
-        player_down = valeur;
+    case SDLK_q:
+        *player1_left = valeur;
         break;
     }
 }
 
-void controlleur(int* continuer, int* player_up, int* player_down,
-    int* player_right, int* player_left, int taille, int* dy,
-    int* dx) {
-    // Controlleur
-    SDL_Event evenement;
-    int vitesse = 5;
+//récupère les inputs du joueur
+void controller(int* continuer, int* player1_up, int* player1_down,
+    int* player1_left, int* player1_right) {
+    // Gestion des événements
+    SDL_Event event;
 
-    // Récupérer tous les événements en attente
-    while (SDL_PollEvent(&evenement) != 0) {
-        if (evenement.type == SDL_QUIT) {
-            continuer = 0;
+    // Récupération de tous les événements en attente
+    while (SDL_PollEvent(&event) != 0) {
+        if (event.type == SDL_QUIT) {
+            *continuer = 0;
         }
-        else if (evenement.type == SDL_KEYDOWN) {
-            mouvement(evenement, *player_up, *player_down, *player_right, *player_left, 1);
+        else if (event.type == SDL_KEYDOWN) {
+            action(event, player1_up, player1_down, player1_right,
+                player1_left, 1);
+            printf("get input ");
         }
-        else if (evenement.type == SDL_KEYUP) {
-            mouvement(evenement, *player_up, *player_down, *player_right, *player_left, 0);
+        else if (event.type == SDL_KEYUP) {
+            action(event, player1_up, player1_down, player1_right,
+                player1_left, 0);
+            printf("get input ");
         }
     }
-    if (player_up==1 && *dy > 0) {
-        *dy = -(vitesse);
-        *dx = 0;
-        printf("go");
-    }
-    else if (player_up == 1 && *dy < 0) {
-        *dy = -(vitesse);
-        *dx = 0;
-        printf("go");
-    }
-    if (player_down == 1 && *dy < 0) {
-        *dy = vitesse;
-        *dx = 0;
-        printf("go");
-    }
-    else if (player_down == 1 && *dy > 0) {
-        *dy = vitesse;
-        *dx = 0;
-        printf("go");
-    }
+}
 
-    if (player_right == 1 && *dx > 0) {
-        *dy = 0;
-        *dx = vitesse;
-        printf("go");
-    }
-    else if (player_right == 1 && *dx < 0) {
-        *dy = 0;
-        *dx = vitesse;
-        printf("go");
-    }
-    if (player_left == 1 && *dx < 0) {
-        *dy = 0;
-        *dx = -(vitesse);
-        printf("go");
-    }
-    else if (player_left == 1 && *dx > 0) {
-        *dy = 0;
-        *dx = -(vitesse);
-        printf("go");
-    }
 
+
+//utilise les interpretation des inputs pour bouger le gameObj
+int deplacementDiagonale(int player1_left, int player1_right, int x) {
+    if (player1_left && x >= 0) {
+        x -= 10;
+    }
+    else if (player1_right && x + TAILLE <= 1920) {
+        x += 10;
+    }
+    return x;
+}
+
+void deplacement(int* y, int* x, int player1_up
+    , int player1_left, int player1_down, int player1_right) {
+
+    if (player1_up && *y >= 0) {
+        *x = deplacementDiagonale(player1_left, player1_right, *x);
+        *y -= 10;
+        printf("go up ");
+    }
+    else if (player1_down && *y + TAILLE <= 1080) {
+        *x = deplacementDiagonale(player1_left, player1_right, *x);
+        *y += 10;
+        printf("go down ");
+    }
+    else if (player1_left && *x >= 0) {
+        *x -= 10;
+        printf("go left ");
+    }
+    else if (player1_right && *x + TAILLE <= 1920) {
+        *x += 10;
+        printf("go right ");
+    }
 }

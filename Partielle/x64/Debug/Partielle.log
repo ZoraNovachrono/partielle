@@ -1,2 +1,4 @@
-﻿  item.c
+﻿  main.c
+C:\Users\quant\OneDrive\Documents\GitHub\partielle\Partielle\main.c(32,11): warning C4244: 'fonction' : conversion de 'time_t' en 'unsigned int', perte possible de données
+C:\Users\quant\OneDrive\Documents\GitHub\partielle\Partielle\main.c(30,15): warning C4101: 'evenement' : variable locale non référencée
   Partielle.vcxproj -> C:\Users\quant\OneDrive\Documents\GitHub\partielle\x64\Debug\Partielle.exe

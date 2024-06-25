@@ -5,6 +5,7 @@
 
 #define TAILLE  50
 
+
 //interpreter les inputs du joueur
 void action(SDL_Event evenement, int* player1_up, int* player1_down,
     int* player1_right, int* player1_left, int valeur) {

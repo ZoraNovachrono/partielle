@@ -7,7 +7,9 @@
 #include "item.h"
 #include "affichage.h"
 
-void spawnItem(SDL_Renderer* renderer,int* nbreItem, int* itemX, int* itemY, int x, int y) {
+//axe d'amélioration collision plus précise
+void spawnItem(SDL_Renderer* renderer,int* nbreItem,
+	int* itemX, int* itemY, int x, int y) {
 
 	if (*nbreItem == 1)
 	{
@@ -18,8 +20,8 @@ void spawnItem(SDL_Renderer* renderer,int* nbreItem, int* itemX, int* itemY, int
 			(y <= *itemY +30 && y >= *itemY ||
 				y + 50 <= *itemY + 30 && y + 50 >= *itemY))
 		{
-			printf("collision");
-				*nbreItem = 0;
+			//printf("collision");
+			*nbreItem = 0;
 		}
 	}
 	else
